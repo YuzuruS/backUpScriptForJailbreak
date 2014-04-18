@@ -1,0 +1,143 @@
+#--------------------------------#
+# Access                         #
+#--------------------------------#
+
++ /private/etc/
++ /private/etc/apt/
++ /private/etc/apt/sources.list.d/
++ /private/
++ /private/var/
++ /private/var/lib/
++ /private/var/lib/cydia/
+
+#--------------------------------#
+# Cydia Sorce List               #
+#--------------------------------#
+#Metadata.plist
++ /private/var/lib/cydia/metadata.*
+
+#Cydia.plist
++ /private/etc/apt/sources.list.d/**
+
+#--------------------------------#
+# /private/var/wireless/Library/ #
+#--------------------------------#
++ /private/var/wireless/
++ /private/var/wireless/Library/
+
+#着信履歴
++ /private/var/wireless/Library/CallHistory/
++ /private/var/wireless/Library/CallHistory/**
+
+#--------------------------------#
+# /private/var/mobile/Library/   #
+#--------------------------------#
++ /private/var/mobile/
++ /private/var/mobile/Library/
+
+#アドレス帳
++ /private/var/mobile/Library/AddressBook/
++ /private/var/mobile/Library/AddressBook/**
+
+#カレンダー
++ /private/var/mobile/Library/Calendar/
++ /private/var/mobile/Library/Calendar/**
+
+#GameCenter等の設定
++ /private/var/mobile/Library/ConfigurationProfiles
++ /private/var/mobile/Library/ConfigurationProfiles/**
+
+#キーボード関連＆ユーザー辞書
++ /private/var/mobile/Library/Keyboard
++ /private/var/mobile/Library/Keyboard/UserDictionary*
++ /private/var/mobile/Library/Keyboard/*.dictionary
+
+#マップ
++ /private/var/mobile/Library/Maps/
++ /private/var/mobile/Library/Maps/**
+
+#SMS送受信履歴
++ /private/var/mobile/Library/SMS/
++ /private/var/mobile/Library/SMS/**
+
+#メモ帳
++ /private/var/mobile/Library/Notes/
++ /private/var/mobile/Library/Notes/**
+
+#Safari (ブックマーク)
++ /private/var/mobile/Library/Safari/
++ /private/var/mobile/Library/Safari/**
+
+#壁紙、アイコンの並び順
++ /private/var/mobile/Library/SpringBoard
++ /private/var/mobile/Library/SpringBoard/**
+
+#iOS標準設定
++ /private/var/mobile/Library/Preferences/
++ /private/var/mobile/Library/Preferences/.GlobalPreferences.plist
++ /private/var/mobile/Library/Preferences/com.apple*
+
+#-----------JailBreaks-----------#
+
+#Activator (ジェスチャ設定)
++ /private/var/mobile/Library/Caches/
++ /private/var/mobile/Library/Caches/libactivator.plist
+
+#Downloadsフォルダ
++ /private/var/mobile/Library/Downloads/
++ /private/var/mobile/Library/Downloads/**
+
+#DisplayRecorder (録画映像)
+- /private/var/mobile/Library/Keyboard/DisplayRecorder/
+- /private/var/mobile/Library/Keyboard/DisplayRecorder/**
+
+#iFile (ブックマーク)
++ /private/var/mobile/Library/iFile/
++ /private/var/mobile/Library/iFile/Bookmarks.plist
+
+#iFile (設定)
++ /private/var/mobile/Library/Preferences/eu.heinelt.ifile.plist
+
+
+#---------JB Preferences---------#
+
+
+#AskToCall
++ /private/var/mobile/Library/Preferences/me.deVbug.AskToCall.plist
+
+#CleanStatus
++ /private/var/mobile/Library/Preferences/us.nakedproductions.cleanstatus.plist
+
+#FolderEnhancer
++ /private/var/mobile/Library/Preferences/jp.ashikase.folderenhancer.plist
+
+#MobileTerminal
++ /private/var/mobile/Library/Preferences/com.googlecode.mobileterminal.Terminal.plist
+
+#PasteBoardStacker 設定 & 履歴
++ /private/var/mobile/Library/Preferences/com.hitoriblog.pasteboardstacker.plist
+
+#StatusBarCustomClock 4
++ /private/var/mobile/Library/Preferences/com.hitoriblog.statusbarcustomclock4.plist
+
+#SBSettings 設定 & Toggle並び順
++ /private/var/mobile/Library/Preferences/com.iptm.bigboss.sbsettings.plist
+
+#--------------------------------#
+# /private/var/mobile/Media/     #
+#--------------------------------#
++ /private/var/mobile/Media/
+
+#写真
+- /private/var/mobile/Media/DCIM/
+- /private/var/mobile/Media/DCIM/**
+
+#--------------------------------#
+# /private/var/root/             #
+#--------------------------------#
++ /private/var/root/
+
+#--------------------------------#
+# All Access                     #
+#--------------------------------#
+- *
